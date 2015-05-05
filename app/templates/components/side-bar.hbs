@@ -1,0 +1,56 @@
+<nav class="navbar-default navbar-static-side" role="navigation">
+  <ul class="nav" id="side-menu">
+    <li class="naveheader">
+      {{#link-to 'index'}}
+        <h1 class='font-bold'>ERIC YAO</h1>
+        <h2>EY</h2>
+        <span class="text-xs text-muted">Photographer, Visual Artist</span>
+      {{/link-to}}
+    </li>
+    <li>
+      {{#link-to 'weddings'}}
+        <i class='fa fa-th-large'></i>
+        <span class="nav-label">Weddings</span>
+      {{/link-to}}
+    </li>
+    <li>
+      {{#link-to 'people'}}
+        <i class='fa fa-th-large'></i>
+        <span class="nav-label">People</span>
+      {{/link-to}}
+    </li>
+    <li>
+      {{#link-to 'places'}}
+        <i class='fa fa-th-large'></i>
+        <span class="nav-label">Places</span>
+      {{/link-to}}
+    </li>
+    <li>
+      {{#link-to 'personalWork'}}
+        <i class='fa fa-th-large' {{action 'toggleMenuItem'}}></i>
+        <span class="nav-label">Personal Work</span>
+        <span class="fa arrow"></span>
+      {{/link-to}}
+      <ul class="nav nav-second-level">
+        <li>
+          {{#link-to 'personalWork.people'}}People{{/link-to}}
+        </li>
+        <li>
+          {{#link-to 'personalWork.other'}}Other{{/link-to}}
+        </li>
+      </ul>
+    </li>
+    <li>
+      {{#link-to 'about'}}
+        <i class='fa fa-th-large'></i>
+        <span class="nav-label">About</span>
+      {{/link-to}}
+    </li>
+    <li>
+      {{#link-to 'contact'}}
+        <i class='fa fa-th-large'></i>
+        <span class="nav-label">Contact</span>
+      {{/link-to}}
+    </li>
+  </ul>
+</nav>

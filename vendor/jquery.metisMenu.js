@@ -15,7 +15,6 @@
 
     Plugin.prototype = {
         init: function () {
-
             var $this = $(this.element),
                 $toggle = this.settings.toggle;
 
