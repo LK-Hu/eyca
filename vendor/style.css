@@ -66,6 +66,7 @@ h5 {
 .navbar-default {
   background-color: transparent;
   border-color: #3a3939;
+  padding-right: 10px;
 }
 .navbar-top-links li {
   display: inline-block;
@@ -1798,7 +1799,7 @@ video {
   width: 100%;
 }
 .wrapper {
-  padding: 0 20px;
+  padding: 0 10px;
 }
 .wrapper-content {
   padding: 20px 10px 40px;

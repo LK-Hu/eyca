@@ -6,4 +6,5 @@ export default Ember.Component.extend({
   initMerisMenu: function() {
     this.$('#side-menu').metisMenu();
   }.on('didInsertElement')
+  
 });

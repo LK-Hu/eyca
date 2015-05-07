@@ -34,7 +34,6 @@ app.import('vendor/animate.css');
 app.import('vendor/jquery.metisMenu.js');
 
 // theme inspinia.js
-app.import('vendor/inspinia.js');
 app.import('vendor/style.css');
 
 module.exports = mergeTrees([app.toTree(), bootstrapFonts, fontAwesomeFonts]);
