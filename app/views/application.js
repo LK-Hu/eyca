@@ -5,9 +5,11 @@ import InspiniaMixin from '../mixins/inspinia';
 
 export default Ember.Component.extend(InspiniaMixin, {
 
-  loadEffect: function() {
-    // minimalize menu
+  didInsertElement: function() {
     var self = this;
+    self._super();
+    
+    // minimalize menu
     Ember.$('.navbar-minimalize').click(function () {
         Ember.$('body').toggleClass("mini-navbar");
         self.get('smoothlyMenu')();
@@ -30,5 +32,5 @@ export default Ember.Component.extend(InspiniaMixin, {
       });
     });
 
-  }.on('didInsertElement')
+  }
 });

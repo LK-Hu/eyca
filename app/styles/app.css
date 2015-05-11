@@ -1,0 +1,13 @@
+.grid-sizer { width:25%; }
+.masonry-item { width:25%; }
+.masonry-item.w2 { width:50%; }
+
+.masonry-item,
+.grid-sizer {
+  height: 1em;
+  float: left;
+  /*background: #D26;*/
+  /*border: 2px solid #333;*/
+  /*border-color: hsla(0, 0%, 0%, 0.5);*/
+  border-radius: 5px;
+}

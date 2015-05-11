@@ -23,6 +23,7 @@ app.import('bower_components/bootstrap/dist/css/bootstrap.min.css');
 // font-awsome
 app.import('bower_components/font-awesome/css/font-awesome.min.css');
 
+
 // normalize.css
 // make browsers render things more consistently
 app.import('vendor/normalize.css');
@@ -32,6 +33,9 @@ app.import('vendor/animate.css');
 
 // jquery.metisMenu.js
 app.import('vendor/jquery.metisMenu.js');
+
+// masonry
+app.import('bower_components/masonry/dist/masonry.pkgd.js');
 
 // theme inspinia.js
 app.import('vendor/style.css');
