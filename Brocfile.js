@@ -34,6 +34,12 @@ app.import('vendor/animate.css');
 // jquery.metisMenu.js
 app.import('vendor/jquery.metisMenu.js');
 
+// imagesLoaed.js
+app.import('bower_components/imagesLoaded/imagesloaded.pkgd.js');
+
+// eventEmitter.js
+app.import('bower_components/eventEmitter/EventEmitter.js');
+
 // masonry
 app.import('bower_components/masonry/dist/masonry.pkgd.js');
 

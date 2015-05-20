@@ -7,8 +7,8 @@ var Router = Ember.Router.extend({
 
 export default Router.map(function() {
   this.route('weddings');
-  this.route('people');
-  this.route('places');
+  this.route('newborn');
+  this.route('portrait');
 
   this.route('personalWork', function() {
     this.route('people');
