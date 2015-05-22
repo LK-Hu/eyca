@@ -2,13 +2,13 @@
 
 import Photo from './photo';
 
-var PersonPhoto = Photo;
+var OtherPhoto = Photo;
 
-PersonPhoto.reopenClass({
+OtherPhoto.reopenClass({
   FIXTURES: [
     {
       id: 1,
-      href: 'https://dl.dropboxusercontent.com/u/15863535/EYPhotos/People/people_01.jpg',
+      href: 'https://dl.dropboxusercontent.com/u/15863535/EYPhotos/Other/other_01.jpg',
       width: 1200, 
       height: 900,
       alt: 'Image Description',
@@ -16,7 +16,7 @@ PersonPhoto.reopenClass({
     },
     {
       id: 2,
-      href: 'https://dl.dropboxusercontent.com/u/15863535/EYPhotos/People/people_02.jpg',
+      href: 'https://dl.dropboxusercontent.com/u/15863535/EYPhotos/Other/other_02.jpg',
       width: 700, 
       height: 1000,
       alt: 'Image Description',
@@ -24,7 +24,7 @@ PersonPhoto.reopenClass({
     },
     {
       id: 3,
-      href: 'https://dl.dropboxusercontent.com/u/15863535/EYPhotos/People/people_03.jpg',
+      href: 'https://dl.dropboxusercontent.com/u/15863535/EYPhotos/Other/other_03.jpg',
       width: 600, 
       height: 450,
       alt: 'Image Description',
@@ -32,7 +32,7 @@ PersonPhoto.reopenClass({
     },
     {
       id: 4,
-      href: 'https://dl.dropboxusercontent.com/u/15863535/EYPhotos/People/people_04.jpg',
+      href: 'https://dl.dropboxusercontent.com/u/15863535/EYPhotos/Other/other_04.jpg',
       width: 600, 
       height: 450,
       alt: 'Image Description',
@@ -40,7 +40,7 @@ PersonPhoto.reopenClass({
     },
     {
       id: 5,
-      href: 'https://dl.dropboxusercontent.com/u/15863535/EYPhotos/People/people_05.jpg',
+      href: 'https://dl.dropboxusercontent.com/u/15863535/EYPhotos/Other/other_05.jpg',
       width: 600, 
       height: 450,
       alt: 'Image Description',
@@ -48,7 +48,7 @@ PersonPhoto.reopenClass({
     },
     {
       id: 6,
-      href: 'https://dl.dropboxusercontent.com/u/15863535/EYPhotos/People/people_06.jpg',
+      href: 'https://dl.dropboxusercontent.com/u/15863535/EYPhotos/Other/other_06.jpg',
       width: 600, 
       height: 450,
       alt: 'Image Description',
@@ -56,7 +56,7 @@ PersonPhoto.reopenClass({
     },
     {
       id: 7,
-      href: 'https://dl.dropboxusercontent.com/u/15863535/EYPhotos/People/people_07.jpg',
+      href: 'https://dl.dropboxusercontent.com/u/15863535/EYPhotos/Other/other_07.jpg',
       width: 600, 
       height: 450,
       alt: 'Image Description',
@@ -64,7 +64,7 @@ PersonPhoto.reopenClass({
     },
     {
       id: 8,
-      href: 'https://dl.dropboxusercontent.com/u/15863535/EYPhotos/People/people_08.jpg',
+      href: 'https://dl.dropboxusercontent.com/u/15863535/EYPhotos/Other/other_08.jpg',
       width: 600, 
       height: 450,
       alt: 'Image Description',
@@ -72,29 +72,21 @@ PersonPhoto.reopenClass({
     },
     {
       id: 9,
-      href: 'https://dl.dropboxusercontent.com/u/15863535/EYPhotos/People/people_09.jpg',
-      width: 600, 
-      height: 450,
-      alt: 'Image Description',
-      masonryItemClass: 'masonry-item w2'
-    },
-    {
-      id: 10,
-      href: 'https://dl.dropboxusercontent.com/u/15863535/EYPhotos/People/people_10.jpg',
+      href: 'https://dl.dropboxusercontent.com/u/15863535/EYPhotos/Other/other_09.jpg',
       width: 600, 
       height: 450,
       alt: 'Image Description',
       masonryItemClass: 'masonry-item'
     },
     {
-      id: 11,
-      href: 'https://dl.dropboxusercontent.com/u/15863535/EYPhotos/People/people_11.jpg',
+      id: 10,
+      href: 'https://dl.dropboxusercontent.com/u/15863535/EYPhotos/Other/other_10.jpg',
       width: 600, 
       height: 450,
       alt: 'Image Description',
-      masonryItemClass: 'masonry-item w2'
+      masonryItemClass: 'masonry-item'
     }
   ]
 });
 
-export default PersonPhoto;
+export default OtherPhoto;
