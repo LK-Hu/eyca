@@ -12,7 +12,7 @@ WeddingPhoto.reopenClass({
       width: 1200, 
       height: 900,
       alt: 'Image Description',
-      masonryItemClass: 'masonry-item'
+      masonryItemClass: 'masonry-item w2'
     },
     {
       id: 2,
@@ -36,7 +36,7 @@ WeddingPhoto.reopenClass({
       width: 600, 
       height: 450,
       alt: 'Image Description',
-      masonryItemClass: 'masonry-item'
+      masonryItemClass: 'masonry-item w2'
     },
     {
       id: 5,
@@ -44,7 +44,7 @@ WeddingPhoto.reopenClass({
       width: 600, 
       height: 450,
       alt: 'Image Description',
-      masonryItemClass: 'masonry-item'
+      masonryItemClass: 'masonry-item w2'
     },
     {
       id: 6,
@@ -68,7 +68,7 @@ WeddingPhoto.reopenClass({
       width: 600, 
       height: 450,
       alt: 'Image Description',
-      masonryItemClass: 'masonry-item'
+      masonryItemClass: 'masonry-item w2'
     },
     {
       id: 9,
@@ -117,7 +117,7 @@ WeddingPhoto.reopenClass({
       height: 450,
       alt: 'Image Description',
       masonryItemClass: 'masonry-item'
-    },
+    }
   ]
 });
 

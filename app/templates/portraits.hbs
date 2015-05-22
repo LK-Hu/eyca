@@ -1,0 +1,21 @@
+{{!-- app/templates/portraits.hbs --}}
+
+<div id='portraits-masonry' class='masonry-container'>
+
+  {{!-- {{#each img in model}} --}}
+
+  
+  {{#photo-swipe}}
+    <div class="grid-sizer"></div>
+    {{#each img in model}}
+      <div class={{img.masonryItemClass}}>
+        <a class="photo-item thumbnail" href={{img.href}} data-width={{img.width}}
+        data-height={{img.height}}>
+          <img src={{img.href}} alt={{img.alt}}>
+        </a>
+      </div>
+    {{/each}}
+
+  {{/photo-swipe}}
+
+</div>

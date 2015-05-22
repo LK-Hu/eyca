@@ -7,12 +7,12 @@ var Router = Ember.Router.extend({
 
 export default Router.map(function() {
   this.route('weddings');
-  this.route('newborn');
-  this.route('portrait');
+  this.route('newborns');
+  this.route('portraits');
 
   this.route('personalWork', function() {
     this.route('people');
-    this.route('other');
+    this.route('others');
   });
 
   this.route('about');

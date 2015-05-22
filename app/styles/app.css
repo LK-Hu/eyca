@@ -1,6 +1,8 @@
 .grid-sizer { width:24%; }
 .masonry-item { width:24%; }
 .masonry-item.w2 { width:48%; }
+.masonry-item.w3 { width:72%; }
+.masonry-item.w4 { width:96%; }
 
 .masonry-item,
 .grid-sizer {
