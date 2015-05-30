@@ -43,6 +43,10 @@ app.import('bower_components/eventEmitter/EventEmitter.js');
 // masonry
 app.import('bower_components/masonry/dist/masonry.pkgd.js');
 
+// bxSlider
+app.import('vendor/bxslider/jquery.bxslider.js');
+app.import('vendor/bxslider/jquery.bxslider.css');
+
 // theme inspinia.js
 app.import('vendor/style.css');
 

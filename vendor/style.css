@@ -1806,14 +1806,14 @@ video {
 }
 .page-wrapper {
   padding: 0 15px;
-  min-height: 568px;
+  /*min-height: 568px;*/
   position: relative !important;
 }
 @media (min-width: 768px) {
   .page-wrapper {
     position: inherit;
     margin: 0 0 0 240px;
-    min-height: 1000px;
+    /*min-height: 1000px;*/
   }
 }
 .title-action {
@@ -3528,7 +3528,7 @@ body.skin-3 {
   .page-wrapper {
     position: inherit;
     margin: 0 0 0 220px;
-    min-height: 1100px;
+    /*min-height: 1100px;*/
   }
   .navbar-static-side {
     z-index: 101;
@@ -3545,7 +3545,7 @@ body.skin-3 {
   .page-wrapper {
     position: inherit;
     margin: 0 0 0 0px;
-    min-height: 1000px;
+    /*min-height: 1000px;*/
   }
   .body-small .navbar-static-side {
     display: none;

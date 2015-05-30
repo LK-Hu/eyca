@@ -6,7 +6,7 @@ var Router = Ember.Router.extend({
 });
 
 export default Router.map(function() {
-  this.route('weddings', { path: '/'});
+  this.route('weddings');
   this.route('newborns');
   this.route('portraits');
 
