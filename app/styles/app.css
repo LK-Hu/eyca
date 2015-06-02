@@ -19,3 +19,13 @@
   margin-right: 20px;
   margin-bottom: 20px;
 }
+
+
+.masonry-item .thumbnail {
+  background-color: #3a3939;
+  border: none;
+}
+
+.masonry-item .thumbnail img {
+  border-radius: 5px;
+}

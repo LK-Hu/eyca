@@ -5,7 +5,15 @@ import Ember from 'ember';
 export default Ember.View.extend({
   didInsertElement: function() {
     this._super();
-    console.log('XXX: ' + this.$('.bxslider').html());
-    this.$('.bxslider').bxSlider();
+    var options = {
+      auto: true
+    };
+
+    // console.log('XXX detect viewport: ' + Ember.$(window).height());
+    // // console.log('YYY detect viewport: ' + Ember.$('.page-wrapper').width());
+
+    
+
+    this.$('.bxslider').bxSlider(options);
   }
 });

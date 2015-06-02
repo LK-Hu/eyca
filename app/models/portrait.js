@@ -9,17 +9,15 @@ PortraitPhoto.reopenClass({
     {
       id: 1,
       href: 'https://dl.dropboxusercontent.com/u/15863535/EYPhotos/Family%20Portrait/family_01.jpg',
-      width: 1200, 
-      height: 900,
-      alt: 'Image Description',
+      width: 1000, 
+      height: 664,
       masonryItemClass: 'masonry-item w4'
     },
     {
       id: 2,
       href: 'https://dl.dropboxusercontent.com/u/15863535/EYPhotos/Family%20Portrait/family_02.jpg',
-      width: 700, 
+      width: 750, 
       height: 1000,
-      alt: 'Image Description',
       masonryItemClass: 'masonry-item w4'
     }
   ]
