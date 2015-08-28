@@ -18,7 +18,14 @@ NewbornPhoto.reopenClass({
       href: 'https://dl.dropboxusercontent.com/u/15863535/EYPhotos/Maternity/Maternity_02.jpg',
       width: 1000, 
       height: 668,
-      masonryItemClass: 'masonry-item w2'
+      masonryItemClass: 'masonry-item'
+    },
+    {
+      id: 6,
+      href: 'https://dl.dropboxusercontent.com/u/15863535/EYPhotos/Maternity/Maternity_07.jpg',
+      width: 1000, 
+      height: 668,
+      masonryItemClass: 'masonry-item'
     },
     {
       id: 3,
@@ -41,20 +48,62 @@ NewbornPhoto.reopenClass({
       height: 1000,
       masonryItemClass: 'masonry-item'
     },
+    // {
+    //   id: 7,
+    //   href: 'https://dl.dropboxusercontent.com/u/15863535/EYPhotos/Maternity/Maternity_06.jpg',
+    //   width: 1000, 
+    //   height: 668,
+    //   masonryItemClass: 'masonry-item'
+    // },
     {
-      id: 6,
-      href: 'https://dl.dropboxusercontent.com/u/15863535/EYPhotos/Maternity/Maternity_06.jpg',
+      id: 8,
+      href: 'https://dl.dropboxusercontent.com/u/15863535/EYPhotos/Maternity/Maternity_07_02.jpg',
       width: 1000, 
-      height: 668,
+      height: 667,
       masonryItemClass: 'masonry-item'
     },
     {
-      id: 7,
-      href: 'https://dl.dropboxusercontent.com/u/15863535/EYPhotos/Maternity/Maternity_07.jpg',
+      id: 9,
+      href: 'https://dl.dropboxusercontent.com/u/15863535/EYPhotos/Maternity/Maternity_08.jpg',
+      width: 1000, 
+      height: 750,
+      masonryItemClass: 'masonry-item'
+    },
+    {
+      id: 10,
+      href: 'https://dl.dropboxusercontent.com/u/15863535/EYPhotos/Maternity/Maternity_09.jpg',
+      width: 668, 
+      height: 1000,
+      masonryItemClass: 'masonry-item'
+    },
+    {
+      id: 11,
+      href: 'https://dl.dropboxusercontent.com/u/15863535/EYPhotos/Maternity/Maternity_10.jpg',
+      width: 533, 
+      height: 1000,
+      masonryItemClass: 'masonry-item'
+    },
+    {
+      id: 12,
+      href: 'https://dl.dropboxusercontent.com/u/15863535/EYPhotos/Maternity/Maternity_11.jpg',
+      width: 1000, 
+      height: 1000,
+      masonryItemClass: 'masonry-item'
+    },
+    {
+      id: 13,
+      href: 'https://dl.dropboxusercontent.com/u/15863535/EYPhotos/Maternity/Maternity_12.jpg',
+      width: 1000, 
+      height: 667,
+      masonryItemClass: 'masonry-item'
+    },
+    {
+      id: 14,
+      href: 'https://dl.dropboxusercontent.com/u/15863535/EYPhotos/Maternity/Maternity_13.jpg',
       width: 1000, 
       height: 668,
       masonryItemClass: 'masonry-item'
-    }
+    } 
   ]
 });
 
